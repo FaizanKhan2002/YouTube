@@ -41,6 +41,10 @@ main {
         padding: 0 7px;
         cursor: pointer;
 }
+.search {
+        display: flex;
+}
+
 
 .search form {
         display: flex;
@@ -66,7 +70,7 @@ form button {
 
 input:focus {
         outline: none;
-        border:.5px solid #ddd;
+        border: .5px solid #ddd;
 }
 
 .material-icons {
@@ -191,7 +195,7 @@ span {
         }
 
 
-        .btn_section .button{
+        .btn_section .button {
                 display: none;
         }
 }
