@@ -41,10 +41,10 @@ main {
         padding: 0 7px;
         cursor: pointer;
 }
+
 .search {
         display: flex;
 }
-
 
 .search form {
         display: flex;
@@ -185,6 +185,12 @@ span {
         text-decoration: none;
         color: rgb(96, 96, 96);
         font-size: 12px;
+}
+
+.about {
+        width: 85%;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 11pt;
 }
 
 @media (max-width: 768px) {
